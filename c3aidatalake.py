@@ -127,3 +127,4 @@ def getprojectionhistory(body, remove_meta = True):
     df = df.rename(columns = lambda x: x.replace(".value", ""))
     
     return df
+    
